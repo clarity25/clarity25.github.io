@@ -15,9 +15,10 @@ body{
 
 #app{
     display: flex;
-    width: 100%;
+    width: 99%;
     padding: 1rem;
 }
+
 #profile{
     padding: 0;
 }
@@ -132,6 +133,19 @@ span{
 /*////Tablets Landscape////*/
 /*/////////////////////////*/
 
+@media (max-width: 1366px){
+    :root{
+        font-size: 14px;
+    }
+    body{
+        padding-bottom: 40rem;
+    }
+
+    #app{
+        padding: .7rem;
+        width: 99%;
+
+}
 @media (max-width: 1024px){
     :root{
         font-size: 14px;
@@ -142,8 +156,8 @@ span{
 
     #app{
         padding: .7rem;
+        width: 98%;
     }
-
     #profile{
         width: 25rem;
     }
@@ -217,6 +231,7 @@ span{
         border-radius: 6px;
     }
 }
+
 
 /*/////////////////////////*/
 /*////Tablets and under////*/
@@ -329,7 +344,7 @@ span{
     }
 
     #profile{
-        width: 90%;
+        width: 90.5%;
     }
 
     #profile img{
@@ -527,9 +542,21 @@ span{
         border-radius: 5px;
     }
 }
-
-@media (max-width: 360px){
+@media (max-width: 414px){
     
+    #profile{
+        width: 95%;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 375px){
+    
+    #profile{
+        width: 96.5%;
+        padding: 0;
+    }
 
 }
 
@@ -638,6 +665,33 @@ span{
         padding: .2rem .7rem;
         border-radius: 5px;
     }
+}
+
+@media (max-width: 320px){
+    
+    #profile{
+        width: 97%;
+    }
+    #profile img{
+        height: 16rem;
+    }
+    .info{
+        width: 85.5%;
+    }
+
+}
+@media (max-width: 280px){
+    
+    #profile{
+        width: 96.5%;
+    }
+    #profile img{
+        height: 14rem;
+    }
+    .info{
+        width: 82%;
+    }
+
 }
 
 
